@@ -1,4 +1,5 @@
 import * as React from "react";
+import { NavButton } from "./NavButton";
 
 export class Nav extends React.Component {
 
@@ -15,10 +16,10 @@ export class Nav extends React.Component {
                     <div>Pobierz CV</div>
                 </div>
                 <div>
-                    <div>Umiejętności</div>
-                    <div>Projekty</div>
-                    <div>Doświadcznie</div>
-                    <div>Edukacja</div>
+                    <NavButton text="Umiejętności" />
+                    <NavButton text="Projekty" />
+                    <NavButton text="Doświadczenie" />
+                    <NavButton text="Edukacja" />
                 </div>
             </div>
         );
